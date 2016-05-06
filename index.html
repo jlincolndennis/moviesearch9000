@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="movieSearch">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+
+  <script src="app.js" charset="utf-8"></script>
+  <script src="controllers/main.controller.js" charset="utf-8"></script>
+  <script src="services/movie.service.js" charset="utf-8"></script>
+  <script src="directives/nav-search/nav-search.js" charset="utf-8"></script>
+  <script src="directives/movielist/movielist.js" charset="utf-8"></script>
+  <script src="directives/movieinfo/movieinfo.js" charset="utf-8"></script>
+
+  <title>MovieSearch 9000</title>
+</head>
+<body ng-controller="MainController">
+  <div class="container-fluid">
+    <header>
+      <h1 class='text-center'>MovieSearch 9000 <small>powered by Angular JS</small></h1>
+    </header>
+  </div>
+  <nav-search></nav-search>
+  <movielist list="searchResult"></movielist>
+</body>
+</html>

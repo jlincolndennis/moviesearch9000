@@ -1,0 +1,17 @@
+{
+  "name": "movie-search",
+  "authors": [
+    "Lincoln Dennis <j.lincoln.dennis@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
