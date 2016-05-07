@@ -1,14 +1,14 @@
 angular.module('movieSearch')
-.directive('movielist', function() {
+.directive('movielist', ['movieService', function(movieService) {
   return {
     restrict: 'E',
     templateUrl: "/directives/movielist/movielist.html",
     scope: {
-      list: '='
+      list: "="
     },
     link: function(scope, element, attrs, fn) {
-
+      
     }
   }
 
-})
+}])

@@ -1,1 +1,14 @@
-
+<section class='container-fluid col-md-10 col-md-offset-2'>
+  <div class="row movie-detail">
+    <div class="col-md-2">
+      <img class="img-responsive" ng-src="{{movie.Poster}}">
+    </div>
+    <div class="col-md-6">
+      <h1>{{movie.Title}} <small>{{movie.Year}}</small></h1>
+      <h3>Directed by {{movie.Director}}</h3>
+      <h4>Staring {{movie.Actors}}</h4>
+      <p>{{movie.Plot}}</p>
+      <h4>Genre: {{movie.Genre}} | Rating: {{movie.Rated}}</h4>
+    </div>
+  </div>
+</section>
